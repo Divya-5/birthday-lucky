@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --primary-dark: #F9A8D4;
+    --primary-blue: #312E81;
+    --secondary-purple:#818CF8;
+    --white-color: #ffffff;
+    --black-color: black;
+  }
+  .outer-container{
+background-color: var(--primary-dark);
+text-align: center;
+height: 100vh;
+  }
+  h1{
+      margin: 0;
+      font-size: xx-large;
+      font-weight: bold;
+      padding: 50px 0;
+  }
+  label,input{
+    font-size: 1.3rem;
+    line-height: 40px;
+    display: block;
+    color: var(--primary-green);
+  }
+  .input-container{
+    width: 50%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+  }
+  button{
+      background-color: var(--black-color);
+      color: var(--white-color);
+      font-weight: bold;
+      font-size: 1rem;
+      border: none;
+      padding: 20px;
+  }
+  #output-box{
+    font-weight: bold;
+    font-size: 1.2rem; 
+    color: var(--secondary-purple);
+    border: 1px solid var(--primary-blue);
+    padding: 20px;
+  }
