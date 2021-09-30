@@ -11,6 +11,7 @@ body{
     --white-color: #ffffff;
     --black-color: black;
     --grey-color: #9ca3af;
+    --brown-color:#bd5612;
   }
   .outer-container{
 background-color: var(--primary-dark);
@@ -53,8 +54,17 @@ text-align: center;
     color: var(--secondary-purple);
   }
 
+  .privacy {
+    width: 50%;
+    max-width: 500px;
+    margin: auto;
+    border: 1px solid var(--brown-color);
+    padding: 1rem;
+    font-size: small;
+    margin-bottom: 1rem;
+   }
+   
   /** footers **/
-
 .footer {
     background-color: var(--grey-color);
     padding: 2rem 1rem;
