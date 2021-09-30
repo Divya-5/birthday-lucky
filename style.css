@@ -47,6 +47,7 @@ text-align: center;
       padding: 20px;
       margin-bottom: 220px;
       border-radius: 0.5rem;
+      margin-top: 1rem;
   }
   #output-box{
     font-weight: bold;
@@ -63,7 +64,7 @@ text-align: center;
     font-size: small;
     margin-bottom: 1rem;
    }
-   
+
   /** footers **/
 .footer {
     background-color: var(--grey-color);
